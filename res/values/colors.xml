@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="llTopColor">#786022</color> 
+	<color name="llBottomColor">#cae5ca</color>  
+	<color name="llTextColor">#080826</color>
+	<color name="llCaptionColor">#6c2a80</color>
+</resources>

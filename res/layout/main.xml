@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/llBottomColor" >
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="5dip"
+        android:text="Get" />
+
+    <EditText
+        android:id="@+id/edAddr"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|left"
+        android:background="@android:drawable/editbox_background"
+        android:text="http://rssportal.ru/feed/15349.xml" android:layout_marginLeft="5dip"/>
+
+    <ListView
+        android:id="@+id/lvFeeds"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|fill_horizontal|fill" android:layout_marginTop="60dp"/>
+
+</FrameLayout>
